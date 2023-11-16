@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Styles.css">
+    <title>Augusto Porfolio</title>
+</head>
+<body>
+    <!--Start section-->
+    <span class="shadow">
+    <section id="home" class="home">
+        <div class="content"></div>
+        <header>
+            <div class="logo">
+                <i class="fa-brands fa-codepen"></i>
+                <h1>Augusto</h1>
+            </div>
+            <nav id="nav" class="responsive"> 
+                <a href="#home">Start</a>
+                <a href="#about me">About </a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <!-- Responsive menu icon -->
+          <div id="icon-nav" onclick="responsiveMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+      <div class="networks">
+        <a href="URL_de_X"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="URL_de_Faceboook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="URL_de_Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+      </div>
+        </header>
+        <div class="row">
+            <div class="col">
+                <h2>Full Stack Developer Jr.</h2>
+                <p>As a Full Stack Developer Jr, I possess expertise in both client-side and server-side development. On the Frontend, I have a strong command of HTML, CSS, and JavaScript, along with experience in using frameworks such as React, Node.js, and Angular.
+                <br>
+                <br>
+                On the Backend, I specialize in Java and have experience with technologies like Spring Boot, JPA, and building RESTful APIs. Additionally, I am well-versed in databases like MySQL and proficient in version control using GitHub.
+                <br>
+                <br>
+                I also have experience with the Agile development methodology, specifically SCRUM, enabling me to collaborate effectively in teams and efficiently deliver high-quality projects.
+                </p>
+                <button class="btn btn-1">Download CV</button>
+            </div>
+            <div class="col">
+                <div class="container-img">
+                    <img src="img/foto-inicio.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <!--Services section-->
+    <section id="service" class="service">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="icon color1">
+                        <div class="circle">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Aca una descripcion de lo que hago.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icon color2">
+                        <div class="circle">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Aca una descripcion de lo que hago.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+                </div>
+                <div class="col">
+                <div class="card">
+                    <div class="icon color3">
+                        <div class="circle">
+                            <i class="fa-solid fa-video"></i>
+                        </div>
+                    </div>
+                    <h3>Videos</h3>
+                    <p>Aca una descripcion de lo que hago.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="icon color1">
+                        <div class="circle">
+                            <i class="fa-solid fa-bullhorn"></i>
+                        </div>
+                    </div>
+                    <h3>Marketing</h3>
+                    <p>Aca una descripcion de lo que hago.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icon color2">
+                        <div class="circle">
+                            <i class="fa-solid fa-circle-info"></i>
+                        </div>
+                    </div>
+                    <h3>Client Support</h3>
+                    <p>Aca una descripcion de lo que hago.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icon color3">
+                        <div class="circle">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                    <h3>Store</h3>
+                    <p>Aca una descripcion de lo que hago.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Skills section-->
+    <section class="skill" id="skill">
+        <div class="skill-content">
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="65">
+                            65%
+                            </div>
+                            <h2>HTML & CSS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="45">
+                                45%
+                            </div>
+                                <h2>BOOTSTRAP</h2>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="40">
+                                40%
+                            </div>
+                                <h2>JAVASCRIPT</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="score">
+                            <div class="box">
+                                <div class="chart" data-percent="65">
+                                65%
+                                </div>
+                                <h2>NODE.JS</h2>
+                                </div>
+                            </div>
+                        </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="45">
+                                45%
+                            </div>
+                                <h2>JAVA</h2>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="40">
+                                40%
+                            </div>
+                                <h2>SPRINGBOOT</h2>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="40">
+                                40%
+                            </div>
+                                <h2>MySQL</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--Projects section-->
+
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <nav>
+            <a href="javascript:void(0)" class="border" id="item" onclick="viewCategory('item')">All</a>
+            <a href="javascript:void(0)" class="" id="front" onclick="viewCategory('front')">Front End</a>
+            <a href="javascript:void(0)" class="" id="back" onclick="viewCategory('back')">Back End</a>
+            <a href="javascript:void(0)" class="" id="full" onclick="viewCategory('full')">Full Stack</a>
+        </nav>
+
+        <div class="gallery">
+            <div class="item front">
+                <img src="img/trabajo1.png" alt="">
+                <div class="info">
+                    <h3>Work title</h3>
+                    <span>html</span><span>css</span><span>javascipt</span>
+                    <a href="#">Ver trabajo</a>
+                </div>
+            </div>
+            <div class="item front">
+                <img src="img/trabajo2.png" alt="">
+                <div class="info">
+                    <h3>Work title</h3>
+                    <span>html</span><span>css</span><span>javascipt</span>
+                    <a href="#">Ver trabajo</a>
+                </div>
+            </div>
+            <div class="item front">
+                <img src="img/trabajo3.png" alt="">
+                <div class="info">
+                    <h3>Work title</h3>
+                    <span>html</span><span>css</span><span>javascipt</span>
+                    <a href="#">Ver trabajo</a>
+                </div>
+            </div>
+            <div class="item back">
+                <img src="img/trabajo4.png" alt="">
+                <div class="info">
+                    <h3>Work title</h3>
+                    <span>html</span><span>css</span><span>javascipt</span>
+                    <a href="#">Ver trabajo</a>
+                </div>
+            </div>
+            <div class="item back">
+                <img src="img/trabajo5.png" alt="">
+                <div class="info">
+                    <h3>Work title</h3>
+                    <span>html</span><span>css</span><span>javascipt</span>
+                    <a href="#">Ver trabajo</a>
+                </div>
+            </div>
+            <div class="item back">
+                <img src="img/trabajo6.png" alt="">
+                <div class="info">
+                    <h3>Work title</h3>
+                    <span>html</span><span>css</span><span>javascipt</span>
+                    <a href="#">Ver trabajo</a>
+                </div>
+            </div>
+            <div class="item full">
+                <img src="img/trabajo7.png" alt="">
+                <div class="info">
+                    <h3>Work title</h3>
+                    <span>html</span><span>css</span><span>javascipt</span>
+                    <a href="#">Ver trabajo</a>
+                </div>
+            </div>
+            <div class="item full">
+                <img src="img/trabajo8.png" alt="">
+                <div class="info">
+                    <h3>Work title</h3>
+                    <span>html</span><span>css</span><span>javascipt</span>
+                    <a href="#">Ver trabajo</a>
+                </div>
+            </div>
+            <div class="item full">
+                <img src="img/trabajo9.png" alt="">
+                <div class="info">
+                    <h3>Work title</h3>
+                    <span>html</span><span>css</span><span>javascipt</span>
+                    <a href="#">Ver trabajo</a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!--Contact section-->
+
+    <section class="contact" id="contact">
+    <div class="content-contact">
+        <h2>contact</h2>
+        <div class="row">
+            <div class="col">
+                <div class="info">
+                    <h3>E-mail</h3>
+                    <p>augustomero@gmail.com</p>
+                </div>
+                <div class="info">
+                    <h3>Cell Phone</h3>
+                    <p>+57 313 8061105</p>
+                </div>
+                <div class="info">
+                    <h3>Country</h3>
+                    <p>Colombia</p>
+                </div>
+                <div class="info">
+                    <h3>City</h3>
+                    <p>Bogotá</p>
+                </div>
+            </div>
+            <div class="col">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre...">
+                <input type="text" id="correo" name="correo" placeholder="Correo...">
+                <textarea id="mensaje" name="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <input type="submit" value="Enviar" class="btn">
+            </div>
+            
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <p>Create by Augusto Romero 2023</p>
+
+    </footer>
+
+    <script src="webPage.js"></script>
+
+</body>
+</html>
